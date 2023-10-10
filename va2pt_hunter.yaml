@@ -2,12 +2,12 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: kube-hunter
+  name: va2pt-hunter
 spec:
   template:
     metadata:
       labels:
-        app: kube-hunter
+        app: va2pt-hunter
     spec:
       containers:
         - name: kube-hunter
