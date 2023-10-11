@@ -3,6 +3,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: va2pt-hunter
+  namespace: va2pt-bench
 spec:
   template:
     metadata:
